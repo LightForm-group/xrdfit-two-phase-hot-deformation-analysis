@@ -1,0 +1,8 @@
+._.DS_Store
+._*
+__pycache__/
+.ipynb_checkpoints/
+*.fuse
+/.idea
+/venv
+data/adc_065_TI64_NDload_900C_15mms_ascii/adc_065_TI64_NDload_900C_15mms_*
