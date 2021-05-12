@@ -9,3 +9,4 @@ __pycache__/
 /venv
 example_data/10deg_caked_data_for_SPP/adc_065_TI64_NDload_900C_15mms_ascii/adc_065_TI64_NDload_900C_15mms_*
 
+analysis/*
