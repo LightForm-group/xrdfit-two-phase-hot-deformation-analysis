@@ -1,0 +1,19 @@
+cakes_to_fit:
+- 27
+- 28
+- 29
+- 9
+- 10
+- 11
+data_file: ../../../SXRD_raw_data/diamond_2017/data_caked/10deg_caked_data_for_SPF/adc_065_TI64_NDload_900C_15mms_ascii/adc_065_TI64_NDload_900C_15mms_00001.dat
+end_deform: 3401
+first_cake_angle: 90
+frame_time: 0.1
+max_frame: 5657
+merge_cakes: false
+peak_params:
+  peak1:
+    peak_bounds: 3.22, 4.0
+    peak_label: ['(0002)', '(110)', '(10-11)']
+    local_bounds: ['3.4, 3.44', '3.52, 3.55', '3.57, 3.6']
+start_deform: 3101
