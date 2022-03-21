@@ -2,6 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors
 from scipy.signal import medfilt
+import yaml
+
+def get_config(path: str) -> dict:
+    """Open a yaml file and return the contents."""
+    with open(path) as input_file:
+        return yaml.safe_load(input_file)
 
 def plot_instrument_data(file_path_instrument_data: str, start_deform: int, end_deform: int, 
                          load_conversion: int = 25, temp_conversion: int = 150, position_conversion = 0.5): 

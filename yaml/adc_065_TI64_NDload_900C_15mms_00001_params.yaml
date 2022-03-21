@@ -5,15 +5,61 @@ cakes_to_fit:
 - 9
 - 10
 - 11
-data_file: ../../../SXRD_raw_data/diamond_2017/data_caked/10deg_caked_data_for_SPF/adc_065_TI64_NDload_900C_15mms_ascii/adc_065_TI64_NDload_900C_15mms_00001.dat
-end_deform: 3401
+data_file: ../../../SXRD_raw_data/diamond_2017/data_caked/10deg_caked_data_for_SPF/adc_065_TI64_NDload_900C_15mms_ascii/adc_065_TI64_NDload_900C_15mms_{:05d}.dat
+deform_end: 3401
+deform_start: 3101
 first_cake_angle: 90
+frame_interval: true
+frame_interval_deform: 1
+frame_interval_end: 50
+frame_interval_initial: 50
+frame_max: 5657
 frame_time: 0.1
-max_frame: 5657
 merge_cakes: false
 peak_params:
   peak1:
+    maxima_names: (10-10)
+    peak_bounds: 3.02, 3.27
+  peak2:
+    maxima_bounds:
+    - 3.4, 3.44
+    - 3.52, 3.55
+    - 3.57, 3.6
+    maxima_names:
+    - (0002)
+    - (110)
+    - (10-11)
     peak_bounds: 3.22, 4.0
-    peak_label: ['(0002)', '(110)', '(10-11)']
-    local_bounds: ['(3.4, 3.44)', '(3.52, 3.55)', '(3.57, 3.6)']
-start_deform: 3101
+  peak3:
+    maxima_names: (10-12)
+    peak_bounds: 4.54, 4.8
+  peak4:
+    maxima_names: (200)
+    peak_bounds: 4.9, 5.1
+  peak5:
+    maxima_names: (11-20)
+    peak_bounds: 5.35, 5.6
+  peak6:
+    maxima_names: (10-13)
+    peak_bounds: 5.9, 6.25
+  peak7:
+    maxima_bounds:
+    - 6.3, 6.34
+    - 6.43, 6.47
+    - 6.52, 6.56
+    maxima_names:
+    - (20-20)
+    - (11-22)
+    - (20-21)
+    peak_bounds: 6.19, 6.71
+  peak8:
+    maxima_bounds:
+    - 6.82, 6.87
+    - 7.05, 7.12
+    - 7.16, 7.20
+    maxima_names:
+    - (0004)
+    - (220)
+    - (20-22)
+    peak_bounds: 6.7, 7.35
+reuse_fits: true

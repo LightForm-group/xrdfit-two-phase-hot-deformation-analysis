@@ -1,0 +1,23 @@
+cakes_to_fit:
+- 72
+- 1
+- 2
+- 36
+- 37
+- 38
+data_file: ../../../SXRD_analysis/desy_2021/experiment05-deformation/caking/Ti64_Rolled_TD_Compress_910C__1-00s-1_Single-Hit_Beta-Anneal_1Cs-1_1050C_Cool_4Cs-1_Def05_1-{:05d}.dat
+deform_end: 0
+deform_start: 0
+first_cake_angle: 90
+frame_interval: false
+frame_interval_deform: 1
+frame_interval_end: 1
+frame_interval_initial: 1
+frame_max: 5518
+frame_time: 0.1
+merge_cakes: false
+peak_params:
+  peak1:
+    maxima_names: (10-10)
+    peak_bounds: 2.67, 2.95
+reuse_fits: true
